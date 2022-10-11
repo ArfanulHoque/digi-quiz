@@ -47,9 +47,10 @@
     width: 500px;
     height: 610px;
     gap: 50px;
-    margin: 100px 750px;
+    margin: 100px 300px;
     text-align: center;
   }
+
   @media only screen and (min-width: 1440px) {
     .topic-container {
       display: grid;
@@ -61,7 +62,7 @@
       width: 500px;
       height: 610px;
       gap: 50px;
-      margin: 100px 750px;
+      margin: 100px 400px;
       text-align: center;
     }
   }
@@ -88,10 +89,10 @@
       border-radius: 20px;
       padding: 15px;
       background-color: #f7efc5;
-      width: 500px;
+      width: 400px;
       height: 610px;
       gap: 50px;
-      margin: 100px 750px;
+      margin: 100px 200px;
       text-align: center;
     }
   }
@@ -106,7 +107,7 @@
       width: 500px;
       height: 610px;
       gap: 50px;
-      margin: 100px 750px;
+      margin: 100px 350px;
       text-align: center;
     }
   }
