@@ -1,0 +1,7 @@
+.banner {
+  background-image: url(/src/images/banner.jpg);
+
+  width: 2150px;
+  height: 500px;
+  text-align: center;
+}
