@@ -1,0 +1,9 @@
+.quiz {
+  margin: 50px 300px;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  /* background-color: cadetblue; */
+  padding: 10px;
+  border-radius: 20px;
+}

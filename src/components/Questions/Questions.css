@@ -1,0 +1,16 @@
+.question {
+  margin: 50px 300px;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: cadetblue;
+  padding: 10px;
+  border-radius: 20px;
+}
+.option {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: blanchedalmond;
+  padding: 10px;
+  border-radius: 20px;
+}

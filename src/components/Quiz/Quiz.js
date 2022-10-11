@@ -1,16 +1,25 @@
 import React from "react";
+import { useLoaderData } from "react-router-dom";
+import "./Quiz.css";
 
-const Quiz = ({ quiz }) => {
-  const { question, options } = quiz;
-  console.log(quiz);
+import Questions from "../Questions/Questions";
+
+const Quiz = () => {
+  const { data } = useLoaderData();
+  const { name, total, questions } = data;
+
   return (
     <div>
-      <h4>Quiz:{question}</h4>
+      <div className="quiz">
+        <h1>Quiz of {name}</h1>
+        <h3>Total Quiz {total}</h3>
+      </div>
 
-      <ul>
-        {" "}
-        <input type="checkbox" /> {options}
-      </ul>
+      <div>
+        {questions.map((question, _idx) => (
+          <Questions key={_idx} _idx={_idx} question={question}></Questions>
+        ))}
+      </div>
     </div>
   );
 };
