@@ -1,0 +1,26 @@
+.topic-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  border: 2px solid gray;
+  border-radius: 20px;
+  padding: 15px;
+  background-color: #f7efc5;
+  width: 500px;
+  height: 610px;
+  gap: 50px;
+  margin: 100px 200px;
+  text-align: center;
+}
+.topic-container img {
+  width: 300px;
+  height: 300px;
+}
+.start-quiz-btn {
+  font-weight: 700;
+  font-size: 20px;
+  border-radius: 20px;
+  background-color: cadetblue;
+}
+.start-quiz-btn:hover {
+  background-color: darkcyan;
+}

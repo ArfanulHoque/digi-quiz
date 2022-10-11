@@ -1,0 +1,16 @@
+.not-found {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.error {
+  font-size: 50px;
+  color: red;
+  margin-bottom: 0;
+}
+.not-found p {
+  font-weight: 800;
+  margin-top: 0;
+  color: blue;
+}
