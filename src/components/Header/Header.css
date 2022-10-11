@@ -2,8 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: cadetblue;
-  color: blanchedalmond;
+  width: 100%;
 }
 .navbar a {
   text-decoration: none;
