@@ -1,5 +1,6 @@
 import React from "react";
 import "./Topic.css";
+import { ArrowRightIcon } from "@heroicons/react/24/solid";
 
 const Topic = ({ topic }) => {
   const { name, logo, total } = topic;
@@ -12,7 +13,9 @@ const Topic = ({ topic }) => {
           <strong>Total Quiz: {total}</strong>
         </p>
       </div>
-      <button className="start-quiz-btn">Start Quiz</button>
+      <button className="start-quiz-btn">
+        Start Quiz <ArrowRightIcon className="arrow" />
+      </button>
     </div>
   );
 };

@@ -6,6 +6,7 @@ import Statistics from "./components/Statistics/Statistics";
 import Blog from "./components/Blog/Blog";
 import Main from "./layout/Main";
 import Error from "./components/Error/Error";
+import Quizzes from "./components/Quizzes/Quizzes";
 
 function App() {
   const router = createBrowserRouter([
