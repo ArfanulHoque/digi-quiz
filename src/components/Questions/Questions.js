@@ -1,7 +1,8 @@
 import React from "react";
 import "./Questions.css";
 import { EyeIcon } from "@heroicons/react/24/solid";
-import { toast } from "react-toastify";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Questions = ({ question, _idx }) => {
   const correct = () => toast.success("Your Answer is Correct");
@@ -42,6 +43,7 @@ const Questions = ({ question, _idx }) => {
           </label>
         ))}
       </div>
+      <ToastContainer />
     </div>
   );
 };
